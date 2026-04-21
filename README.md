@@ -27,10 +27,10 @@ SRN: PES1UG24CS267
 ## 🖼️ Output Screenshots
 
 ### 💻 Client Output
-![Client Output](./client output)
+![Client Output](./client output.png)
 
 ### 🖥️ Server Output
-![Server Output](./server output)
+![Server Output](./server output.png)
 
 ---
 
