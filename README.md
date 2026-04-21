@@ -1,22 +1,22 @@
-# 🔐 Secure Real-Time Leaderboard System
+# Secure Real-Time Leaderboard System
 
 A Python-based secure client-server application that maintains a **live leaderboard** using sockets, multithreading, and SSL encryption.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 🔒 Secure communication using SSL/TLS  
-- ⚡ Real-time leaderboard updates  
-- 👥 Multi-client support using multithreading  
-- 📊 Persistent leaderboard storage (JSON)  
-- 🧠 Smart score update logic  
-- 🌐 Auto server IP detection  
-- 🔁 Continuous score streaming  
+-  Secure communication using SSL/TLS  
+-  Real-time leaderboard updates  
+-  Multi-client support using multithreading  
+-  Persistent leaderboard storage (JSON)  
+-  Smart score update logic  
+-  Auto server IP detection  
+-  Continuous score streaming  
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Meda Sahasra Siri
 
@@ -24,17 +24,17 @@ SRN: PES1UG24CS267
 
 ---
 
-## 🖼️ Output Screenshots
+## Output Screenshots
 
-### 💻 Client Output
+### Client Output
 ![Client Output](./client%20output.png)
 
-### 🖥️ Server Output
+### Server Output
 ![Server Output](./server%20output.png)
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 
 project/
@@ -51,22 +51,22 @@ project/
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
-### 🔹 Server
+### Server
 - Accepts secure client connections  
 - Verifies client certificates  
 - Maintains leaderboard  
 - Broadcasts updates to all clients  
 
-### 🔹 Client
+### Client
 - Connects securely to server  
 - Sends random scores every 5 seconds  
 - Receives live leaderboard updates  
 
 ---
 
-## 📡 Communication Format
+## Communication Format
 
 Client sends:
 
@@ -76,9 +76,9 @@ player_name,score,timestamp
 
 ---
 
-## 🧪 Setup Instructions
+## Setup Instructions
 
-### 1️⃣ Clone the Repository
+### 1. Clone the Repository
 
 
 git clone https://github.com/your-username/secure-leaderboard.git
@@ -88,7 +88,7 @@ cd secure-leaderboard
 
 ---
 
-### 2️⃣ Generate SSL Certificates
+### 2. Generate SSL Certificates
 
 
 openssl req -new -x509 -days 365 -nodes -out server.crt -keyout server.key
@@ -98,7 +98,7 @@ openssl req -new -x509 -days 365 -nodes -out client.crt -keyout client.key
 
 ---
 
-### 3️⃣ Run the Server
+### 3. Run the Server
 
 
 python3 server.py
@@ -106,7 +106,7 @@ python3 server.py
 
 ---
 
-### 4️⃣ Run the Client
+### 4. Run the Client
 
 
 python3 client.py
@@ -116,7 +116,7 @@ Enter player name when prompted.
 
 ---
 
-## 📊 Sample Output
+## Sample Output
 
 
 LIVE LEADERBOARD
@@ -125,7 +125,7 @@ AA → 425
 
 ---
 
-## 🧠 Concepts Used
+## Concepts Used
 
 - Socket Programming (TCP)
 - SSL/TLS Encryption
@@ -135,7 +135,7 @@ AA → 425
 
 ---
 
-## ⚠️ Notes
+## Notes
 
 - Ensure all `.crt` and `.key` files are present  
 - Works best on same network  
@@ -143,15 +143,9 @@ AA → 425
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
-- 🌐 Web dashboard (React frontend)  
-- 🗄️ Database integration  
-- 🔐 Authentication system  
-- ☁️ Cloud deployment  
-
----
-
-## ⭐ Support
-
-If you like this project, give it a ⭐ on GitHub
+- Web dashboard (React frontend)  
+- Database integration  
+- Authentication system  
+- Cloud deployment  
