@@ -4,7 +4,6 @@ import random
 import threading
 import ssl
 
-# 🔥 Auto-detect default network IP
 def get_default_server_ip():
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     try:
@@ -33,8 +32,7 @@ def start_client(player_name):
     raw_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     secure_client = context.wrap_socket(raw_socket, server_hostname="server")
 
-    # 🔥 Auto connect
-    server_ip = get_default_server_ip()
+    server_ip = "172.20.10.3"
     print(f"Auto connecting to server at {server_ip}")
 
     try:
