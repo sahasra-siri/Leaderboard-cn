@@ -19,6 +19,7 @@ A Python-based secure client-server application that maintains a **live leaderbo
 ## 👨‍💻 Author
 
 Meda Sahasra Siri
+
 SRN: PES1UG24CS267
 
 ---
@@ -26,14 +27,10 @@ SRN: PES1UG24CS267
 ## 🖼️ Output Screenshots
 
 ### 💻 Client Output
-![Client Output](./client-output.png)
+![Client Output](./client output.png)
 
 ### 🖥️ Server Output
-![Server Output](./server-output.png)
-
-> ⚠️ Make sure your image names match exactly:
-> - `client-output.png`
-> - `server-output.png`
+![Server Output](./server output.png)
 
 ---
 
